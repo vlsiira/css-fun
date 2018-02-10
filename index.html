@@ -2,98 +2,104 @@
 <html>
     <head>
         <title>Chocolate Pizza</title>
+        <link href="https://fonts.googleapis.com/css?family=Abel|Oswald:700|Patrick+Hand|Yellowtail" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <header>
-            <section>
-                <img src="assets/logo.png" alt="fork and knife logo">
-                <h1>Delicious</h1>
-                <h4>The best food blog on the web</h4>
-            </section>
-            <section>
-                <img src="assets/fb-icon.png" alt="facebook logo">
-                <img src="assets/twit-icon.png" alt="twitter logo">
-                <img src="assets/gp-icon.png" alt="google plus logo">
-                <img src="assets/insta-icon.png" alt="instagram logo">
-                <img src="assets/flic-icon.png" alt="flickr logo">
-                <img src="assets/pint-icon.png" alt="pinterest logo">
-                <img src="assets/rss-icon.png" alt="rss feed icon">
-                <img src="assets/mail-icon.png" alt="email icon">
-            </section>
-        </header>
-        <article>
-            <header>
-                <h2>Chocolate Pizza</h2>
-                <h4>Posted on 15 Dec 2013 / Desserts</h4>
-                <button>
-                    <img src="assets/print-icon.png" alt="print icon">
-                    <p>print</p>
-                </button>
+        <div id="wrapper">
+            <header id="page-header">
+                <section id="logo">
+                    <img src="assets/logo.png" alt="fork and knife logo">
+                    <div id="logo-text">
+                    <h1>Delicious</h1>
+                    <h4>The best food blog on the web</h4>
+                    </div>
+                </section>
+                <section id="social">
+                    <img src="assets/fb-icon.png" alt="facebook logo">
+                    <img src="assets/twit-icon.png" alt="twitter logo">
+                    <img src="assets/gp-icon.png" alt="google plus logo">
+                    <img src="assets/insta-icon.png" alt="instagram logo">
+                    <img src="assets/flic-icon.png" alt="flickr logo">
+                    <img src="assets/pint-icon.png" alt="pinterest logo">
+                    <img src="assets/rss-icon.png" alt="rss feed icon">
+                    <img src="assets/mail-icon.png" alt="email icon">
+                </section>
             </header>
-            <section>
-                <img src="assets/choco-pizza.png" alt="chocolate cake">
-                <p>
-                   For the fig-swirl: Melt butter over medium heat in a saucepan.  Add brown sugar and stir to dissolve.  Halve all of the figs and toss in the saucepan with water and lemon juice.  Cook over medium heat, stirring frequently, until you have a chunky-jammy mixture.  Add salt with one or two stirs, set aside an let cool completely.
-                </p>
-                <p>
-                    Ice cream: In a small pot over medium heat, combine milk and granulated sugar until sugar is completely dissolved and the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture in the fridge and wait until the fig mixture is cooled.
-                </p>
-                <p>
-                    Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer instructions, i.e., let spin and thicken for 20 minutes before adding marscarpone, fig jam mixture, and the nuts. Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass tupperware. Freeze for at least two hours before serving.
-                </p>
-                <aside>
-                    <form>
-                        <input type="checkbox" name="ingredients" value="milk" id="milk">
-                        <label for="milk">1 1/2 cups milk</label>
+            <article>
+                <header>
+                    <h2>Chocolate Pizza</h2>
+                    <h4>Posted on 15 Dec 2013 / Desserts</h4>
+                    <button>
+                        <img src="assets/print-icon.png" alt="print icon">
+                        <p>print</p>
+                    </button>
+                </header>
+                <section>
+                    <img src="assets/choco-pizza.png" alt="chocolate cake">
+                    <p>
+                    For the fig-swirl: Melt butter over medium heat in a saucepan.  Add brown sugar and stir to dissolve.  Halve all of the figs and toss in the saucepan with water and lemon juice.  Cook over medium heat, stirring frequently, until you have a chunky-jammy mixture.  Add salt with one or two stirs, set aside an let cool completely.
+                    </p>
+                    <p>
+                        Ice cream: In a small pot over medium heat, combine milk and granulated sugar until sugar is completely dissolved and the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture in the fridge and wait until the fig mixture is cooled.
+                    </p>
+                    <p>
+                        Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer instructions, i.e., let spin and thicken for 20 minutes before adding marscarpone, fig jam mixture, and the nuts. Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass tupperware. Freeze for at least two hours before serving.
+                    </p>
+                    <aside>
+                        <form>
+                            <input type="checkbox" name="ingredients" value="milk" id="milk">
+                            <label for="milk">1 1/2 cups milk</label>
 
-                        <input type="checkbox" name="ingredients" value="mascarpone" id="mascarpone">
-                        <label for="mascarpone">1/2 cup marscarpone</label>
+                            <input type="checkbox" name="ingredients" value="mascarpone" id="mascarpone">
+                            <label for="mascarpone">1/2 cup marscarpone</label>
 
-                        <input type="checkbox" name="ingredients" value="salt" id="salt">
-                        <label for="salt">1/2 tsp pink salt</label>
-                        
-                        <input type="checkbox" name="ingredients" value="figs" id="figs">
-                        <label for="figs">1 lb Black Mission Figs</label>
-                        
-                        <input type="checkbox" name="ingredients" value="brown-sugar" id="brown-sugar">
-                        <label for="brown-sugar">1/2 cup brown sugar</label>
+                            <input type="checkbox" name="ingredients" value="salt" id="salt">
+                            <label for="salt">1/2 tsp pink salt</label>
+                            
+                            <input type="checkbox" name="ingredients" value="figs" id="figs">
+                            <label for="figs">1 lb Black Mission Figs</label>
+                            
+                            <input type="checkbox" name="ingredients" value="brown-sugar" id="brown-sugar">
+                            <label for="brown-sugar">1/2 cup brown sugar</label>
 
-                        <input type="checkbox" name="ingredients" value="water" id="water">
-                        <label for="water">2-4 tbsp water</label>
+                            <input type="checkbox" name="ingredients" value="water" id="water">
+                            <label for="water">2-4 tbsp water</label>
 
-                        <input type="checkbox" name="ingredients" value="cream" id="cream">
-                        <label for="cream">1 1/2 cups heavy cream</label>
+                            <input type="checkbox" name="ingredients" value="cream" id="cream">
+                            <label for="cream">1 1/2 cups heavy cream</label>
 
-                        <input type="checkbox" name="ingredients" value="sugar" id="sugar">
-                        <label for="sugar">1/3 granulated sugar</label>
-                        
-                        <input type="checkbox" name="ingredients" value="yolk" id="yolk">
-                        <label for="yolk">2 egg yolks</label>
+                            <input type="checkbox" name="ingredients" value="sugar" id="sugar">
+                            <label for="sugar">1/3 granulated sugar</label>
+                            
+                            <input type="checkbox" name="ingredients" value="yolk" id="yolk">
+                            <label for="yolk">2 egg yolks</label>
 
-                        <input type="checkbox" name="ingredients" value="lemon-juice" id="lemon-juice">
-                        <label for="lemon-juice">1 lemon, juiced</label>
+                            <input type="checkbox" name="ingredients" value="lemon-juice" id="lemon-juice">
+                            <label for="lemon-juice">1 lemon, juiced</label>
 
-                        <input type="checkbox" name="ingredients" value="butter" id="butter">
-                        <label for="butter">2 tbsp butter</label>
+                            <input type="checkbox" name="ingredients" value="butter" id="butter">
+                            <label for="butter">2 tbsp butter</label>
 
-                        <input type="checkbox" name="ingredients" value="pecans" id="pecans">
-                        <label for="pecans">1 cup honey roasted pecans, roughly chopped</label>
-                    </form>
-                </aside>
-            </section>
+                            <input type="checkbox" name="ingredients" value="pecans" id="pecans">
+                            <label for="pecans">1 cup honey roasted pecans, roughly chopped</label>
+                        </form>
+                    </aside>
+                </section>
+                <footer>
+                    <img src="assets/van-pic.png" alt="Vanessa Stevenson photo">
+                    <h2>Vanessa Stevenson</h2>
+                    <p>Food enthusiast, photography fan. Add a pinch of raw foodium and that's pretty much who I am.</p>
+                    <button>
+                        Share recipe
+                    </button>
+                </footer>
+            </article>
             <footer>
-                <img src="assets/van-pic.png" alt="Vanessa Stevenson photo">
-                <h2>Vanessa Stevenson</h2>
-                <p>Food enthusiast, photography fan. Add a pinch of raw foodium and that's pretty much who I am.</p>
-                <button>
-                    Share recipe
-                </button>
+                <img src="assets/small-logo.png" alt="small knife and fork logo">
+                <p>Delicious &copy; 2013 - All Rights Reserved.</p>
+                <p>Proudly pubslished with Ghost.</p>
             </footer>
-        </article>
-        <footer>
-            <img src="assets/small-logo.png" alt="small knife and fork logo">
-            <p>Delicious &copy; 2013 - All Rights Reserved.</p>
-            <p>Proudly pubslished with Ghost.</p>
-        </footer>
+        </div>
     </body>
 </html>

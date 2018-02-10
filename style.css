@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#page-header {
+    box-sizing: border-box;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background: repeating-linear-gradient(45deg,white,white 4px,black 1px,black 5px); */
+}
+
+#logo {
+    display: flex;
+}
+
+#logo img {
+    width: 42px;
+    height: 45px;
+}
+
+#logo-text {
+    height: 42px;
+    margin-left: 10px;
+}
+
+#logo h1 {
+    font-family: 'Yellowtail', cursive;
+    font-size: 2.2rem;
+    line-height: 2.2rem;
+}
+
+#logo h4 {
+    font-family: 'Abel', sans-serif;
+    text-transform: uppercase;
+    font-size: .7rem;
+    line-height: .7rem;
+    color: rgb(59, 59, 59);
+}
+
+#social {
+
+}
