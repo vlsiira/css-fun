@@ -10,11 +10,10 @@
 
 #page-header {
     box-sizing: border-box;
-    padding-top: 30px;
+    padding: 30px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* background: repeating-linear-gradient(45deg,white,white 4px,black 1px,black 5px); */
 }
 
 #logo {
@@ -24,6 +23,7 @@
 #logo img {
     width: 42px;
     height: 45px;
+    padding-top: 3px;
 }
 
 #logo-text {
@@ -33,18 +33,37 @@
 
 #logo h1 {
     font-family: 'Yellowtail', cursive;
-    font-size: 2.2rem;
-    line-height: 2.2rem;
+    font-size: 40px;
+    line-height: 36px;
 }
 
 #logo h4 {
     font-family: 'Abel', sans-serif;
     text-transform: uppercase;
-    font-size: .7rem;
-    line-height: .7rem;
+    font-size: 12px;
+    line-height: 15px;
     color: rgb(59, 59, 59);
 }
 
-#social {
-
+#header-links {
+    display: flex;
 }
+
+#social img, #non-social img {
+    margin: 0 -1px;
+}
+
+#social img:nth-child(5) {
+    margin: 0 -2px;
+}
+
+#non-social {
+    margin-left: 12px;
+}
+
+.striped-divider {
+    width: 100%;
+    height: 12px;
+    background-image: repeating-linear-gradient(45deg,white,white 2px,rgb(59, 59, 59) 1px,rgb(59, 59, 59) 3px);
+    background-size: 4px 34px;
+ }
