@@ -161,7 +161,7 @@ form section:nth-child(2) {
 #article-header {
     font-family: 'Oswald', sans-serif;
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 25px;
 }
 
 #article-header h2 {
