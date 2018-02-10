@@ -48,3 +48,40 @@
 #social {
 
 }
+
+#article-header {
+    box-sizing: border-box;
+}
+
+#article-header {
+    font-family: 'Oswald', sans-serif;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#article-header h2 {
+    font-size: 2.6em;
+}
+
+#article-header div {
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+    font-family: 'Abel', sans-serif;
+    text-transform: uppercase;
+    font-size: .8em;
+    font-weight: lighter;
+}
+
+button {
+    display: flex;
+    border-color: white;
+    align-items: center;
+}
+
+button p {
+    padding: 3px;
+    color: grey;
+    text-transform: uppercase; 
+    font-size: 0.9em;          
+}
